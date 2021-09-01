@@ -8,6 +8,12 @@ public class GetNumber {
 		String usd = "usd";
 		
 		
+		String[] values = {"ab", "cdef", "ghj"};
+		
+		System.out.println(values.length);
+		System.out.println(values[0].length());
+		
+		
 		
 		
 
