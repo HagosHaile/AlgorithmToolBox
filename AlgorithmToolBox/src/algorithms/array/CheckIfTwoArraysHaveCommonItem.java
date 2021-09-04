@@ -1,12 +1,13 @@
 package algorithms.array;
 
 //O(a*b) time complexity
+//O(a) space complexity
 import java.util.Hashtable;
 
 public class CheckIfTwoArraysHaveCommonItem {
 
 	public static void main(String[] args) {
-		boolean haveCommonItem = containsCommonItem(new int[] {1,2,3,4},new int[] {9,5,6,7});
+		boolean haveCommonItem = containsCommonItem(new int[] {1,2,4,4},new int[] {9,5,6,7});
 		System.out.println(haveCommonItem);
 	}
 

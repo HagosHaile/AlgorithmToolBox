@@ -1,5 +1,6 @@
 package algorithms.array;
 //O(a*b) time complexity
+////O(1) space complexity
 public class CommonItems {
 
 	public static void main(String[] args) {
