@@ -1,5 +1,5 @@
 package algorithms.array;
-
+//O(n) time complexity
 public class CommonItems {
 
 	public static void main(String[] args) {
