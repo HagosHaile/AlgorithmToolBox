@@ -1,1 +1,1 @@
-# AlgorithmToolBox algorithm excercises and problems
+# algorithmic problems and solutions
