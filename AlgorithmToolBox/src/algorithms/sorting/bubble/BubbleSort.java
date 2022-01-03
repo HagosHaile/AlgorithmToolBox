@@ -17,7 +17,7 @@ public class BubbleSort {
 			len--;
 		}
 		for (int i = 0; i < intA.length; i++) {
-			System.out.println(intA[i]);
+			System.out.print(" "+intA[i]);
 		}
 
 	}
