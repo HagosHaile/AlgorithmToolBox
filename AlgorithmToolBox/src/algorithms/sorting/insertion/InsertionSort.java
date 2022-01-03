@@ -4,7 +4,7 @@ public class InsertionSort {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {5,4,7,7,2,8};
+		int[] arr = {5,1,9,7,2,8};
 		int[] arr2 = sorted(arr);
 		
 		for(int j =0; j<arr2.length; j++) {
@@ -23,7 +23,8 @@ public class InsertionSort {
 				j=j-1;
 				
 			}
-			arr[j+1]= current;
+			if(j+1 != i)
+				arr[j+1]= current;
 					
 		}
 		return arr;
