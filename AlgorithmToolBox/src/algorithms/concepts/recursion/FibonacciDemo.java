@@ -8,7 +8,7 @@ public class FibonacciDemo {
 	}
 	
 	private static int  fibonacci(int i) {
-		
+		// updated
 		if(i<2)
 			return i;
 		return fibonacci(i-1) + fibonacci(i-2);
