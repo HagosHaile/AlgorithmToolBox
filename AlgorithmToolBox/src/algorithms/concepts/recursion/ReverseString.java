@@ -3,7 +3,10 @@ package algorithms.concepts.recursion;
 public class ReverseString {
 
 	public static void main(String[] args) {
-		System.out.println(reverse("abcd"));
+		System.out.println(reverse(null)); //null
+		System.out.println(reverse("")); //empty string
+		System.out.println(reverse("a")); // a
+		System.out.println(reverse("abc")); // cba
 
 	}
 	
