@@ -6,10 +6,10 @@ public class LinearSearch {
 		int[] arr = {};
 		int[] arr1 = {4,5,2,9,8};
 		
-		System.out.println(search(arr, 0));
-		System.out.println(search(arr1, 9));
-		System.out.println(search(arr1, 6));
-		System.out.println(search(arr1, 4));
+		System.out.println(search(arr, 0));	//-1
+		System.out.println(search(arr1, 9)); //3
+		System.out.println(search(arr1, 6)); //-1
+		System.out.println(search(arr1, 4)); //0
 
 	}
 
