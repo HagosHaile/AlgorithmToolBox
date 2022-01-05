@@ -9,12 +9,9 @@ public class FibonacciDemo {
 	
 	private static int  fibonacci(int i) {
 		
-		if(i==0)
-			return 0;
-		if(i==1)
-			return 1;
-		i--;
-		return fibonacci(i) + fibonacci(i-1);
+		if(i<2)
+			return i;
+		return fibonacci(i-1) + fibonacci(i-2);
 	}
 
 }
