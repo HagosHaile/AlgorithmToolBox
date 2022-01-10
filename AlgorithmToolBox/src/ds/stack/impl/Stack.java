@@ -1,6 +1,6 @@
 package ds.stack.impl;
 
-public class Stack {
+class Stack {
 	private int arr[];
 	private int top;
 	private int capacity;
