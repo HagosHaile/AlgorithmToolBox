@@ -7,6 +7,7 @@ public class StackImpl {
 	 * search O(n)
 	 * insertion O(1) 
 	 * deletion O(1)
+	 * peek O(1)
 	 * 
 	 * Applications of Stack Data Structure
 	 * Although stack is a simple data structure to implement, 

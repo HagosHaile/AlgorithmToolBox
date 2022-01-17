@@ -15,15 +15,13 @@ public class RecurringvalueInArray {
 	}
 
 	private static int recurringvalue(Integer[] arr) {
-		Map<Integer, Integer> map = new HashMap();
-		Set<Integer> set = new HashSet(); 
+		Map<Integer, Integer> map = new HashMap(); 
 		for(int i=0; i<arr.length; i++) {
-			if(!set.contains(arr[i])) {
-				map.put(arr[i], arr[i]);
-				set.add(arr[i]);
+			if(map.containsKey(arr[i])) {
+				return arr[i];
 			}
 			else
-				return arr[i];
+				map.put(arr[i],i);
 		}
 		return -1;
 		

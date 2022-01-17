@@ -31,6 +31,10 @@ class Stack {
 		}
 		return arr[top--];
 	}
+	
+	public int peek() {
+		return arr[top];
+	}
 
 	// Utility function to return the size of the stack
 	public int size() {
