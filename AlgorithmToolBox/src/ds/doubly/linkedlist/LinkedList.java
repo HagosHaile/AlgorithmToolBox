@@ -23,6 +23,20 @@ public class LinkedList {
         size++;
     }
     
+ // used to insert a node at the start of linked list
+    public void insertLast(int data) {
+        Node newNode = new Node();
+        newNode.data = data;
+        newNode.next = null;
+        newNode.prev=tail;
+        if(tail!=null)
+            tail.next=newNode;
+        tail = newNode;
+        if(head==null)
+            head=newNode;
+        size++;
+    }
+    
  // used to delete node from start of Doubly linked list
     public Node deleteFirst() {
  
