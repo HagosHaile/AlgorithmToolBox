@@ -1,4 +1,4 @@
-package ds.linkedlist;
+package ds.singly.linkedlist;
 
 //Java program to implement
 //a Singly Linked List

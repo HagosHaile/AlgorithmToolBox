@@ -1,4 +1,4 @@
-package ds.linkedlist;
+package ds.singly.linkedlist;
 
 public class Node {
 	Node next;
