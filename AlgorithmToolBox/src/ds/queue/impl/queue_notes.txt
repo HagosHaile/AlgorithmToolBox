@@ -4,7 +4,7 @@ best way to think is like an entrance to roller coaster.
 
 lookup			O(n)	you don't usually traverse values using queue. because it is heavy operation
 enqueue			O(1)	add value to the top of queue
-peek			O(1)  	view the last value
+peek			O(1)  	view the first/front value
 dequeue			O(1)  	remove value from the front of queue.
 
 
@@ -15,3 +15,6 @@ where is it used for?
 	-waiting line for theater
 	-printer queue
 	-
+**** 	we can implement queues using arrays and linked lists
+****	But using an array to implement queue is very inefficient
+**** 	Java has queue interface

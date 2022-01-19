@@ -15,3 +15,5 @@ where is it used?
 	-browser history back and forth
 	-when writing a text(i.e undo to go back and redo to go forward)
 	
+*** Java has built in stack
+stacks can be implemented using array and linked list

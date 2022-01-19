@@ -32,4 +32,4 @@ cons
 applications
 	implementing file systems
 	browser history
-	
+java has built in doubly linked list	
