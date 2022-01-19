@@ -11,5 +11,7 @@ dequeue			O(1)  	remove value from the front of queue.
 where is it used for?
 	-reservation for a restaurant table
 	-line for a roller coaster
-	-uber and lyft reservation
+	-uber and lyft ride request
 	-waiting line for theater
+	-printer queue
+	-
