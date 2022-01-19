@@ -1,0 +1,15 @@
+time complexity of Queue DS
+uses FIFO => first in first out
+best way to think is like an entrance to roller coaster.
+
+lookup			O(n)	you don't usually traverse values using queue. because it is heavy operation
+enqueue			O(1)	add value to the top of queue
+peek			O(1)  	view the last value
+dequeue			O(1)  	remove value from the front of queue.
+
+
+where is it used for?
+	-reservation for a restaurant table
+	-line for a roller coaster
+	-uber and lyft reservation
+	-waiting line for theater

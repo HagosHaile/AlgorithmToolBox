@@ -1,6 +1,17 @@
 time complexity of stack DS
+uses FILO => first in last out
+lookup		O(n)	you don't usually traverse values using stack. because it is heavy operation
+pop			O(1)	remove value from the top of stack
+peek		O(1)  	view the last value
+push		O(1)  	add value to the end of stack
 
-lookup		O(n)
-pop			O(1)
-peek		O(1) 
-push		O(1)
+
+where is it used?
+	-language engines
+	-stack overflow
+	-last item accessed
+	-most programming languages are modeled with the stack architecture in mind
+	-when functions(methods) are called they follow the stack principle
+	-browser history back and forth
+	-when writing a text(i.e undo to go back and redo to go forward)
+	
