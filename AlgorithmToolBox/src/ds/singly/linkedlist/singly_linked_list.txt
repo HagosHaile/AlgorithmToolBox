@@ -1,0 +1,7 @@
+time complexity of singly linked list
+
+append		O(1)
+prepend		O(1)
+lookup		O(n)
+insert		O(n) 
+delete		O(n)
