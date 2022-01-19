@@ -1,4 +1,4 @@
-package ds.stack.impl;
+package ds.stack.arrayimpl;
 
 class Stack {
 	private int arr[];

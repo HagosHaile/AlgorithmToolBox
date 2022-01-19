@@ -1,4 +1,4 @@
-package ds.stack.impl;
+package ds.stack.arrayimpl;
 
 public class StackImpl {
 	/*
