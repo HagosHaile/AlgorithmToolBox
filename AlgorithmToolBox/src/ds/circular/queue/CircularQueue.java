@@ -1,4 +1,4 @@
-package ds.circularqueue.impl;
+package ds.circular.queue;
 
 public class CircularQueue {
 
