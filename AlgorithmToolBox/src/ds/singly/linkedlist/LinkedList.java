@@ -23,6 +23,10 @@ public class LinkedList {
 	}
 	
 	public void insert(int index, int data) {
+		if(index==0) {
+			this.prepend(data);
+			return;
+		}
 		int i=0;
 		Node current = head;
 		while(i<index-1) {
