@@ -22,6 +22,20 @@ public class LinkedList {
 		head = newHead;
 	}
 	
+	public void insert(int index, int data) {
+		int i=0;
+		Node current = head;
+		while(i<index-1) {
+			current = current.next;
+			i++;
+			
+		}
+		Node newNode= new Node(data);
+		newNode.next = current.next;
+		current.next = newNode;
+		
+	}
+	
 	public void deleteWithValue(int data) {
 		if(head == null) return;
 		if(head.data == data) {
