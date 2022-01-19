@@ -5,3 +5,28 @@ prepend		O(1)
 lookup		O(n)
 insert		O(n) 
 delete		O(n)
+
+
+single 												doubly
+-fairly simple implementation						more complex implementation than singly
+-requires less memory than doubly					requires more memory than singly
+-is a little bit faster								slower than singly
+-can only be traversed one way						can be traversed both ways
+-use it when memory is expensive					good when you don't limitation of memory
+-for fast insertion and deletion and you			searching backwards
+dont have that much searching
+
+
+linked list in general are good
+		fast insertion
+		fast deletion
+		ordered
+		flexible size
+		
+cons
+		slow lookup
+		low memory		
+		
+applications
+	implementing file systems
+	browser history
