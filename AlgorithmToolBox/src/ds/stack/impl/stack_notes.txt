@@ -15,5 +15,6 @@ where is it used?
 	-browser history back and forth
 	-when writing a text(i.e undo to go back and redo to go forward)
 	
+*** arrays help for cash locality since elements are stored in consecuative memory location
 *** Java has built in stack
-stacks can be implemented using array and linked list
+stacks can be implemented using array and linked list. both work fairly well. depends on the scenario.
