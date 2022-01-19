@@ -16,7 +16,7 @@ class Stack {
 	public void push(int x) {
 		if (isFull()) {
 			System.out.println("OverFlow\nProgram Terminated\n");
-			System.exit(1);
+			return;
 		}
 
 		System.out.println("Inserting " + x);
