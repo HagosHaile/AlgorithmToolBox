@@ -1,0 +1,6 @@
+time complexity of stack DS
+
+lookup		O(n)
+pop			O(1)
+peek		O(1) 
+push		O(1)
