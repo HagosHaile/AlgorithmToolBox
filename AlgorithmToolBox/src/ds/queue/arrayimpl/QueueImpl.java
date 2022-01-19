@@ -1,4 +1,4 @@
-package ds.queue.impl;
+package ds.queue.arrayimpl;
 
 public class QueueImpl {
 

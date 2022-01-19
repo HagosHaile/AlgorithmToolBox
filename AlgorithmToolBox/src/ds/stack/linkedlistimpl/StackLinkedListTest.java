@@ -9,10 +9,11 @@ public class StackLinkedListTest {
 		stack.push(3);
 		stack.push(4);
 		stack.pop();
-		stack.pop();
-		stack.pop();
-		stack.pop();
 		stack.peek();
+		//stack.pop();
+		//stack.pop();
+		//stack.pop();
+		//stack.peek();
 		stack.displayAll();
 
 	}
