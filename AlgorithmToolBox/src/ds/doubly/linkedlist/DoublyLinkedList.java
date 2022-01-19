@@ -1,6 +1,6 @@
 package ds.doubly.linkedlist;
 
-public class LinkedList {
+public class DoublyLinkedList {
 	Node head;
 	Node tail;
 	int size;

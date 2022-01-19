@@ -3,7 +3,7 @@ package ds.doubly.linkedlist;
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		LinkedList  linkedList = new LinkedList();
+		DoublyLinkedList  linkedList = new DoublyLinkedList();
 		linkedList.insertLast(6);;
 		linkedList.insertLast(9);
 		linkedList.insertFirst(5);
