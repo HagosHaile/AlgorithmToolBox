@@ -2,36 +2,36 @@ package ds.queue.linkedlistimpl;
 
 public class Queue {
 
-	Node rear;
-	Node front;
+	Node last;
+	Node first;
 	int size;
 
 	public Queue() {
-		rear = null;
+		last = null;
 		// front = null;
 		size = 0;
 	}
 
 	public void enqueue(int data) {
-		Node oldRear = rear;
-		rear = new Node(data);
-		rear.next = null;
+		Node oldRear = last;
+		last = new Node(data);
+		last.next = null;
 		if (isEmpty()) {
-			front = rear;
+			first = last;
 		} else {
-			oldRear.next = rear;
+			oldRear.next = last;
 		}
 		size++;
 	}
 	
 	public void dequeue() {
-		if(front == null) {
+		if(first == null) {
 			System.out.println("Queue is empty");
 			return;
 		}
 		
-		Node current = front.next;
-		front = current;
+		Node current = first.next;
+		first = current;
 		size--;
 		
 	}
@@ -41,16 +41,16 @@ public class Queue {
 	}
 	
 	public int peek() {
-		return front.data;
+		return first.data;
 	}
 
 	public void displayAll() {
-		if (front == null) {
+		if (first == null) {
 			System.out.println("Queue is empty");
 			return;
 		} else {
 			System.out.print("list of all queue elements is: ");
-			Node current = front;
+			Node current = first;
 			// System.out.print(current.data + " ");
 			while (current != null) {
 				System.out.print(current.data + " ");
