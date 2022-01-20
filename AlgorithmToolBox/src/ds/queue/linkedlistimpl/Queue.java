@@ -39,6 +39,10 @@ public class Queue {
 	public boolean isEmpty() {
 		return size == 0;
 	}
+	
+	public int peek() {
+		return front.data;
+	}
 
 	public void displayAll() {
 		if (front == null) {

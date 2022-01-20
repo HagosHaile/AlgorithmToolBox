@@ -8,7 +8,9 @@ public class QueueLinkedListTest {
 		q.enqueue(2);
 		q.enqueue(3);
 		q.enqueue(4);
+		System.out.println("peek value is "+ q.peek());
 		q.dequeue();
+		System.out.println("peek value is "+ q.peek());
 		q.displayAll();
 
 	}
