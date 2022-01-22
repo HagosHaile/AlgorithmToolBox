@@ -1,0 +1,59 @@
+-Are one of the most useful and most used Data structures in computer science 
+ when it comes to modeling in real relationships.
+ 
+graphs have
+	Nodes or vertex
+	edges
+	
+can be used to represent 
+	networks
+	family relationships
+	friendships
+	web
+	Facebook uses it for their social network
+	amazon uses it for their recommendations engines
+	google uses it for google map to determine the shortest path
+	
+	
+there are many types of graphs. But what are the main characteristics of graphs
+	directed  	=> like one way street
+	undirected 	=> like highway between two cities
+	
+Facebook for example uses undirected graph i.e when I am connected to a friend 
+he is automatically  connected to me too.
+
+twitter is directed: I just follow a friend. doesnt mean he is following through the same request.
+
+weighted Vs unweighted graphs
+*** values can be assigned to various aspects of a graph
+
+weighted 													unweighted 
+														used by google map to calculate shortest path
+														
+													
+cyclic vs Acyclic graphs
+
+cyclic														Acyclic graphs
+														are common in weighted graphs like google map
+														because there is a way to come back
+
+	
+DAG is directed acyclic graph used in block chain
+Graphs are built on top of other data structures.
+
+
+ways to implement graphs
+	Edge list
+	Adjacent list
+	Adjacent matrix
+	
+pros and cons of graph
+	pros														cons
+relationships												hard to scale
+
+	
+	
+
+	
+ 	
+ 	
