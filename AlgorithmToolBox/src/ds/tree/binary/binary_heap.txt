@@ -17,3 +17,12 @@ Example
 binary heap are very good in comparative operations
 heaps are usually used in data storage
 they preserve the order of insertion
+searching is slower than binary search tree
+
+
+	better than O(N)					slower lookup
+	flexible size
+	priority
+	fast insertion
+	
+find min and find max is O(1)
