@@ -1,34 +1,3 @@
-preserves relationships
-	
-Rules of BST
-	values at the right child of a node are greater than the left
-	a node can only have up to two children
-
-time complexity of BST @ average
-	lookup	O(logN)
-	insert	O(logN)
-	delete	O(logN)
-	
-But when it is unbalanced or worst case scenario
-	lookup	O(N)
-	insert	O(N)
-	delete	O(N)
-	
-But how do we balance BST?
-	AVL tree
-	Red black tree
-	
-pros and cons of BST
-		pros								cons
-	better than O(N)						No O(1) operations
-	ordered
-	flexible size
-
-** BST are not the fastest for anything
-
-Traversing
-	in-order 	left	root 	right
-	pre-order	root	left 	right
-	post-order	left 	right 	root	
-	
-balancing BST resource: https://stackoverflow.com/questions/13852870/red-black-tree-over-avl-tree
+there are two types
+	min heap
+	max heap

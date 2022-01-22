@@ -16,4 +16,3 @@ Example
 			
 binary heap are very good in comparative operations
 heaps are usually used in data storage
-they preserve the order of insertion
