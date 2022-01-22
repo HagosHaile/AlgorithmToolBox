@@ -30,3 +30,5 @@ Traversing
 	in-order 	left	root 	right
 	pre-order	root	left 	right
 	post-order	left 	right 	root	
+	
+balancing BST resource: https://stackoverflow.com/questions/13852870/red-black-tree-over-avl-tree

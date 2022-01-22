@@ -32,6 +32,10 @@ public class Node {
 		
 	}
 	
+	public void delete(int value) {
+		
+	}
+	
 	public boolean contains(int value) {
 		if(value == data) {
 			return true;
