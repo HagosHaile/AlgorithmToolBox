@@ -9,3 +9,9 @@ used specifically with Strings
 
 you can think of it as auto completion
 
+	searching words in dictionary
+	providing auto suggestion
+	IP routing
+
+Tries have major advantage of time an space complexity
+searching a word time complexity or Big-O is O(N) where N is the length of the word

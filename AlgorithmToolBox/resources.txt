@@ -1,3 +1,12 @@
+
+	Data structures 								Algorithms
+Arrays			Trees								Sorting
+Stacks			Tries								Dynamic Programming
+Queues			Graphs								BFS + DFS(Searching)
+Linked lists	Hash Tables							Recursion
+
+
+
 https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link
 
 
