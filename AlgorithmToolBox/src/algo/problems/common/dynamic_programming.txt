@@ -1,0 +1,23 @@
+Dynamic programming can be defined as (Divide and Conquer) + Memoization.
+
+Steps to implement dynamic programming
+	1. Can the problem be divided into subProblems
+	2. Can it be solved with recursion
+	3. Are there repetitive subproblems
+	4. MEMOIZE subproblems
+	
+	
+	
+Fibonacci MEMOIZATION facts
+
+recursive
+	-the time taken by recursive Fibonacci is O(2^n) or exponential
+	-space complexity of recursive is O(N).
+
+iterative	
+	-iterative time complexity is O(n)
+	-space complexity of iteration is O(1).
+
+recursive using MEMOIZATION
+	-the time taken by recursive Fibonacci is O(N) or exponential
+	-space complexity of recursive is O(N).
