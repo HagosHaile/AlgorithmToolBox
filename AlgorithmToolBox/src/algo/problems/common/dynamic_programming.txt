@@ -21,3 +21,8 @@ iterative
 recursive using MEMOIZATION
 	-the time taken by recursive Fibonacci is O(N) or exponential
 	-space complexity of recursive is O(N).
+	
+Common Dynamic Programming Problems
+	1. House Robber    
+	2. Best Time to Buy and Sell Stock  
+	3. Climbing Stairs  
